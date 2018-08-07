@@ -30,6 +30,7 @@
 		</Item>
 		<Item Name="RealBLDC_Acquisition.vi" Type="VI" URL="../RealBLDC_Acquisition.vi"/>
 		<Item Name="ModelBLDC.vi" Type="VI" URL="../ModelBLDC.vi"/>
+		<Item Name="Least Square.vi" Type="VI" URL="../Least Square.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -205,6 +206,7 @@
 				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
 				<Item Name="Draw Circle by Radius.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Draw Circle by Radius.vi"/>
 				<Item Name="NILVSim.dll" Type="Document" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/NILVSim.dll"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -222,6 +224,7 @@
 			<Item Name="SimEx BLDC Six-step Controller.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2018/examples/Control and Simulation/Case Studies/Electrical Machines/Brushless DC Motor Drive/subVIs/SimEx BLDC Six-step Controller.vi"/>
 			<Item Name="SimEx BLDC Hall Sensor.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2018/examples/Control and Simulation/Case Studies/Electrical Machines/Brushless DC Motor Drive/subVIs/SimEx BLDC Hall Sensor.vi"/>
 			<Item Name="SimEx BLDC Animation.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2018/examples/Control and Simulation/Case Studies/Electrical Machines/Brushless DC Motor Drive/subVIs/SimEx BLDC Animation.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
